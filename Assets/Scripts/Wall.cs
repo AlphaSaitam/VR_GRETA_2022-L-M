@@ -10,7 +10,7 @@ public class Wall : BaseActionnable
 
 {
     public Color baseColor ;
-    private Color[] colorArray =new Color[]{Color.clear, Color.cyan, Color.blue,Color.white};
+    private Color[] colorArray =new Color[]{Color.clear, Color.cyan, Color.blue,Color.white,Color.black,Color.green,};
     private int i;
 
     private void Start()

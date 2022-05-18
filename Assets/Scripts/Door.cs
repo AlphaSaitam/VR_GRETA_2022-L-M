@@ -35,7 +35,7 @@ public class Door : BaseActionnable
 
     private void RotattionClamp()
     {
-        _baseposition.localEulerAngles = new Vector3(0f, Mathf.Clamp(0f0f,80f));
+        _baseposition.localEulerAngles = new Vector3(0f, Mathf.Clamp(0f,0f,80f));
     }
 
 
